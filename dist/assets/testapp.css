@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  background-color: lightgrey;
+}
+.ember-view {
+  height: 100%;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+.application-view {
+  width: 100%;
+  height: 100%;
+}
+.application-view .app-sidebar {
+  width: 150px;
+  height: 100%;
+  border-right: 1px solid black;
+}
+.application-view .app-sidebar .message {
+  margin-top: 50px;
+  font-size: 10px;
+}
+.application-view .app-main {
+  position: absolute;
+  top: 0;
+  width: calc(100% - 150px);
+  height: 100%;
+  margin-left: 150px;
+}
+.sidebar-component {
+  background-color: white;
+}
+.sidebar-component a {
+  margin-bottom: 25px;
+  color: black;
+}
+.sidebar-component a:visited {
+  color: black;
+}
+.sidebar-component a:hover {
+  text-decoration: none;
+  color: red;
+}
+.sidebar-component .sidebar-links {
+  list-style-type: none;
+}
+.sidebar-component .sidebar-links .link {
+  color: black;
+}
+.mom-view {
+  background-color: lightpink;
+  overflow-y: scroll;
+  text-align: center;
+  margin: auto;
+}
+.mom-view .mom-title {
+  font-size: 25px;
+}
+.mom-view .mom-message {
+  font-size: 16px;
+}
+.mom-view .mom-message .gif-poem {
+  margin-top: 25px;
+  border: 1px solid red;
+  padding-bottom: 50px;
+}
+.mom-view .mom-message .gif-poem p {
+  margin-top: 10px;
+}
+.mom-view .mom-message .gif-poem .outro {
+  font-size: 50px;
+}
+.league-view .league-header {
+  display: flex;
+}
+.league-view .league-header .summoner-info {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  flex-basis: 150px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.league-view .league-header .summoner-info .icon {
+  height: 125px;
+}
+.league-view .league-header .summoner-info .icon .icon-border {
+  z-index: 2;
+}
+.league-view .league-header .summoner-info .icon .icon-border img {
+  width: 112px;
+}
+.league-view .league-header .summoner-info .icon .icon-image {
+  z-index: 1;
+  position: relative;
+  top: -107px;
+}
+.league-view .league-header .summoner-info .icon .icon-image img {
+  width: 100px;
+}
+.league-view .league-header .summoner-overview {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+/*# sourceMappingURL=/assets/testapp.css.map */
