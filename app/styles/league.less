@@ -1,0 +1,43 @@
+.league-view {
+    .league-header {
+        display: flex;
+
+        .summoner-info {
+            display: flex;
+            flex-direction: column;
+            flex: 0;
+            flex-basis: 150px;
+            justify-content: center;
+            text-align: center;
+            padding-top: 20px;
+
+            .icon {
+                height: 125px;
+
+                .icon-border {
+                    z-index: 2;
+
+                    img {
+                        width: 112px;
+                    }
+                }
+
+                .icon-image {
+                    z-index: 1;
+                    position: relative;
+                    top: -107px;
+
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .summoner-overview {
+            display: flex;
+            flex: 1;
+            align-items: center;
+        }
+    }
+}

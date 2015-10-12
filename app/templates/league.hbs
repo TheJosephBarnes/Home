@@ -1,0 +1,21 @@
+<div class="league-header">
+    <div class="summoner-info">
+        <div class="icon">
+            <div class="icon-border">
+                <img {{bind-attr src=rankBorder}} />
+            </div>
+            <div class="icon-image">
+                <img {{bind-attr src=summonerIconSrc}} />
+        </div>
+        </div>
+        <div class="name">
+            {{playerName}}
+        </div>
+    </div>
+    <div class="summoner-overview">
+        <div class="rank">
+            {{playerLeague}} ({{playerRank}} {{playerDivision}}), {{playerLP}} LP
+        </div>
+    </div>
+</div>
+
